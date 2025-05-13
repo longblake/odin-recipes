@@ -2,13 +2,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     background-color: lightslategray;
 }
 
 .titlebox{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     background-color: aliceblue;
@@ -42,6 +49,7 @@ button{
     border-radius: 12px;
     color: black;
     margin-left: -40px;
+    
 }
 
 button:hover{

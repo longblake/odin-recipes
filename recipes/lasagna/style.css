@@ -2,8 +2,14 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    width: 500px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -25,12 +31,13 @@
 }
 .titlebox{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     background-color: aliceblue;
     border-radius: 10px;
     margin: 10px;
+    width: 500px;
 }
 
 
@@ -55,6 +62,7 @@ img{
     background-color: aliceblue;
     border-radius: 10px;
     margin: 10px;
+    width: 500px;
 }
 
 
@@ -66,6 +74,7 @@ img{
     background-color: aliceblue;
     border-radius: 10px;
     margin: 10px;
+    width: 500px;
 }
 
 .listbox{
@@ -75,6 +84,7 @@ img{
     margin: 10px;
     width: 500px;
     box-sizing: border-box;
+    width: 500px;
 }
 .listtext{
     list-style-position: inside;
@@ -94,6 +104,7 @@ img{
     background-color: aliceblue;
     border-radius: 10px;
     margin: 10px;
+    width: 500px;
 }
 
 .sublisttext{
@@ -104,5 +115,6 @@ img{
     background-color: aliceblue;
     border-radius: 10px;
     margin: 10px;
+    width: 500px;
 }
 
